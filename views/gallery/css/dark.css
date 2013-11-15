@@ -1,0 +1,53 @@
+body{
+    color:#fff;
+    background: #000;
+}
+footer,nav section{
+    border-color: #FFFFFF;
+}
+nav{
+    background: rgba(0,0,0,0.7);
+}
+#tweeterW{
+    background-position: 0 0;
+}
+#facebookW{
+    background-position: -40px 0;
+}
+#mailW{
+    background-position: -82px 0;
+}
+.cast li,#work-text .client{
+    border-color: #fff !important;
+}
+.logoBox{
+    background: url("../../../public/img/logoWhite.png") no-repeat !important;
+}
+#menuIco{
+    background: #fff;
+    color:#000;
+}
+#nav{
+    background: #fff;
+}
+#nav li{
+    border:1px solid transparent;
+    border-color:#000;
+    color:#000;  
+    border-bottom-width: 0 !important;
+}
+#nav li:last-child{
+    border-bottom-width: 1px  !important;
+}
+#nav li:hover{
+    background: #000;
+    color:#fff;
+    border:1px solid #fff;
+}
+@media only screen and (max-width: 767px) {
+    .logoBox {
+        background: url("../../../public/img/logoMiniBlack.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+        width: 70px;
+        height: 70px;
+    }
+}
