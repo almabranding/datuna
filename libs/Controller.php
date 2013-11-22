@@ -42,6 +42,7 @@ class Controller {
         }
         $this->model->setLang($lang);
         $this->view->lang = $lang;
+        
     }
 
 }

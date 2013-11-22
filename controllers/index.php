@@ -11,6 +11,7 @@ class Index extends Controller {
         $project=$this->loadSingleModel('project');
         $this->view->projects = $project->getProjects($pag,NUMPP);
         $this->view->pag = $project->countProjects($pag);
+        $this->view->tumblrPosts=$this->model->getTumblrPosts();
         $this->view->render('index/index');
     }
     

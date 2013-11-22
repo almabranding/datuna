@@ -1,11 +1,7 @@
 </div>
 <footer>
-    <div class="col first">©2013 Alma Branding</div>
-    <div class="col"> <div class="social">
-        <a id="tweeterW" class="navIco" target="_blank" href="https://www.tweeter.com/almabranding" title="Tweeter Alma Branding"></a>
-        <a id="facebookW" class="navIco" target="_blank" href="https://www.facebook.com/almabranding" title="Facebook Alma Branding"></a>
-        <a id="mailW" class="navIco" target="_blank" href="mailto:contact@almabranding.com" title="Contact Alma Branding"></a>
-        </div>
+    <div class="col first">©2013 Datuna</div>
+    <div class="col">
     </div>
 </footer>
 <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->

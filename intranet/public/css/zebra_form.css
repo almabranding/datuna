@@ -298,7 +298,6 @@
     box-shadow: 2px 2px 6px rgba(0,0,0,0.6);
     *margin-right: 0;
     max-width: 250px;
-    _width:expression(document.body.clientWidth > 250 ? '250px': 'auto'); /* max-width for IE6 */
 }
 
 .Zebra_Form_error_message .noclose { padding: 10px }

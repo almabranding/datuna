@@ -1,27 +1,19 @@
 <body>
     <nav>
-        <section>
-       <a href="<?=URL;?>"> <div class="logoBox">
-            
-        </div></a>
-        <div class="menuBox">
-            <div id="menu">
-            <div id="menuIco">☰</div>
-            <ul id="nav">
-                <li><a href="/"><p>Work</p></a></li>
-                <li><a href="/about"><p>About Us</p></a></li>
-            </ul> 
+        <section id="topNav">
+            <a href="<?= URL; ?>"> <div class="logoBox">
+
+                </div></a>
+            <div class="menuBox">
+                <div id="menu">
+                    <div id="menuIco">☰</div>
+                    <ul id="nav">
+                        <li><a href="/"><p>GLASSFEED</p></a></li><li><a href="/"><p>BIO</p></a></li><li><a href="/"><p>CONCEPT</p></a></li><li><a href="/"><p>PRESS</p></a></li><li><a href="/"><p>NEWS</p></a></li><li><a href="/"><p>CONTACT</p></a></li><li><a href="/"><p>FACEBOOK</p></a></li><li><a href="/"><p>TWITTER</p></a></li>
+                    </ul> 
+                </div>
             </div>
-            <div class="social">
-            <a id="tweeterW" class="navIco" target="_blank" href="http://twitter.com/DesignBarcelona" title="Tweeter Alma Branding"></a>
-            <a id="facebookW" class="navIco" target="_blank" href="https://www.facebook.com/almabranding" title="Facebook Alma Branding"></a>
-            <a id="mailW" class="navIco" target="_blank" href="mailto:contact@almabranding.com" title="Contact Alma Branding"></a>
-            </div>
-        </div>
-        <div class="clr"></div>
-        <hr/>
+            <div class="clr"></div>
         </section>
     </nav>
-
     <div id="content">
 

@@ -9,13 +9,13 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title><?=($this->siteName)?>Alma Branding</title>
+    <title><?=($this->siteName)?>Datuna</title>
     <meta charset="UTF-8"> 
     <meta property="og:site_name" content="" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="author" content="" />
-    <link rel="shortcut icon" href="<?= URL; ?>favicon.png" Content-type="image/x-icon" />
+    <link rel="shortcut icon" href="<?= URL; ?>favicon.ico" Content-type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minium-scale=1.0,user-scalable=yes"/>
     <link rel="stylesheet" href="<?= URL; ?>public/css/style.css" />
     <link rel="stylesheet" href="<?= URL; ?>public/css/mobile.css" />

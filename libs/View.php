@@ -22,24 +22,17 @@ class View {
             require 'views/footer.php';    
         }
         // open the cache file for writing
-        if(!is_dir(CACHE))mkdir(CACHE);
+        /*if(!is_dir(CACHE))mkdir(CACHE);
         $cachefile = CACHE.$this->_cache.".html";
         $fp = fopen($cachefile, 'w');
-
-		 // save the contents of output buffer to the file
         fwrite($fp, ob_get_contents());
-
-
-		 // close the file
         fclose($fp);
-
-		 // Send the output to the browser
-        ob_end_flush();
+        ob_end_flush();*/
 
     }
     public function viewGrill($l) 
     { 
-        $this->title=$l[0];
+        /*$this->title=$l[0];
         unset($l[0]);
         $this->list=$l;
         $widthAuto=(100/sizeof($this->title)).'%';
@@ -67,15 +60,15 @@ class View {
             if($value['_link']) $view.='</a>';
         }
         $view.='</ul></li></ul>';
-        echo $view;
+        echo $view;*/
     }
-    private function _getCache()
-    {
+   private function _getCache()
+    { /*
         $url = isset($_GET['url']) ? $_GET['url'] : null;
         $url = rtrim($url, '/');
         $url = filter_var($url, FILTER_SANITIZE_URL);
         if(empty($url)) $url='index';
         $this->_cache = str_replace('/', '.', $url) ;
-    }
+   */ }
 
 }

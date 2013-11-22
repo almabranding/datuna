@@ -11,7 +11,7 @@ class Bootstrap {
     private $_errorFile = 'error.php';
     private $_defaultFile = 'index.php';
     private $_ZebraForm = 'Zebra_Form.php';
-    private $_allowLang = Array('EN','ES','PT');
+    private $_allowLang = Array('EN');
     /**
      * Starts the Bootstrap
      * 
@@ -23,9 +23,10 @@ class Bootstrap {
         $this->_getUrl();
         $this->_getCache();
         Session::init();
-        Session::set('lang','en');
+        Session::set('lang','EN');
+        
         require LIBS. $this->_ZebraForm;
-
+        
         // Serve from the cache if it is the same age or younger than the last 
         // modification time of the included file (includes/$reqfilename)
         //$this->loadCache();
@@ -38,8 +39,7 @@ class Bootstrap {
         }
         $this->_loadExistingController();
         $this->_callControllerMethod();
-     
-   
+        
     }
     /**
      * Check if the page is cached
@@ -50,18 +50,9 @@ class Bootstrap {
         $cachetime = 30 * 60; // 5 minutes
         $cachefile = ROOT."cache/".$this->_cache.".html";
         if (file_exists($cachefile)&& (time() - $cachetime< filemtime($cachefile))) {  
-
-
-           //include($cachefile);
-
-           
-
-
-           //exit;
+           include($cachefile);
+           exit;
         }
-
-
-		 // start the output buffer
         ob_start();
     }
     
